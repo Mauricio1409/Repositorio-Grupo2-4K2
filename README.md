@@ -27,13 +27,16 @@
 
 ```
 Repositorio-Grupo-2--4K2
-├── 01_Catedra/            # Material provisto por los profesores (enunciados, guías)      
-├── 02_Gestion_Grupo/      # Minutas de reunión, cronogramas y el Plan de SCM.
-│   └──  Cronograma        # Planificación y seguimiento
-├── 03_Entregas/           # Trabajos entregables
-│   ├── TIs/               # Trabajos de Investigación
-│   └── TPs/               # Trabajos Prácticos                                    
-└── 04_Producto/           # Artefactos que forman parte del producto   
+├── 01_Catedra/                         # Material provisto por los profesores (enunciados, guías)      
+├── 02_Gestion_Grupo/                   # Minutas de reunión, cronogramas y el Plan de SCM.
+│   └──  Cronograma                     # Planificación y seguimiento
+├── 03_Entregas/                        # Trabajos entregables
+│   ├── TIs/                            # Trabajos de Investigación
+│   └── TPs/                            # Trabajos Prácticos             
+│        └── tp_<N> 
+│              ├── consigna/
+│              └── entrega/                          
+└── 04_Producto/                        # Artefactos que forman parte del producto   
 ```
 ---
 
@@ -41,12 +44,14 @@ Repositorio-Grupo-2--4K2
 
 **Archivos y carpetas:** Nombres descriptivos en minúscula y separados por guión bajo (_).
 
-| Ítem de configuración          | Regla de nombrado                              | Ejemplo                     |
-|--------------------------------|------------------------------------------------|-----------------------------|
+| Ítem de configuración | Regla de nombrado                                       | Ejemplo                                          |
+|------------------------|------------------------------------------------------------|----------------------------------------------------|
+| User Stories           | `TP[N] - REQ - NombreEjercicio - UserStories.md`            | `TP4 - REQ - ParqueDiversiones - UserStories.md`    |
+| MVP                    | `TP[N] - REQ - NombreEjercicio - MVP.pdf`                    | `TP4 - REQ - ParqueDiversiones - MVP.pdf`           |
+| Estimaciones            | `TP[N] - REQ - NombreEjercicio - Estimaciones.xlsx`          | `TP4 - REQ - ParqueDiversiones - Estimaciones.xlsx` |
+| Casos de Prueba         | `TP[N] - TST - NombreEjercicio - CasosPrueba.md`             | `TP4 - TST - ParqueDiversiones - CasosPrueba.md`    |
+| Retrospectiva Sprint     | `TP[N] - SCR - Retrospective - Sprint[N].md`                 | `TP11 - SCR - Retrospective - Sprint3.md`           |
 
-
-**Regla general:** no se incluyen números de versión en el nombre del archivo (ej. evitar `tp4_v1.pdf`); Git gestiona las versiones internamente mediante metadatos. Se modifica el contenido del archivo, pero se mantiene siempre el mismo nombre.
- 
 ---
 
 ## Glosario
@@ -56,6 +61,11 @@ Repositorio-Grupo-2--4K2
 |  TIs   | Trabajos de Investigación                     |
 |  TPs   | Trabajos Prácticos                            |
 |  SCM   | Gestión de Configuración de Software          |
+|   N    | Número de ítem (1, 2, ..., n)                 |
+| REQ    | Requerimientos                                |
+| TST    | Testing                                       |
+| SCR    | Scrum                                         |
+| MVP    | Producto Mínimo Viable (Minimum Viable Product)|
  
 
 ## Herramienta a utilizar para SCM
