@@ -15,22 +15,25 @@
 
 ## Integrantes del Grupo
 
+| Nombre                        | Legajo |
+|-------------------------------|--------|
+| Quispe Ricra - Junior Junior  | 97139  |
+|                               |        |
+
 
 ---
 
 ## Estructura del repositorio
 
 ```
-Repositorio-Grupo5-4K2/
-├── Material_extra/               
-│         
-├── Planificacion/
-│   
-├──Trabajo_de_Investigacion/                     
-│
-├── Trabajos_Practicos/                           
-│
-└── Trabajos_investigacion/       
+Repositorio-Grupo-2--4K2
+├── 01_Catedra/            # Material provisto por los profesores (enunciados, guías)      
+├── 02_Gestion_Grupo/      # Minutas de reunión, cronogramas y el Plan de SCM.
+│   └──  Cronograma        # Planificación y seguimiento
+├── 03_Entregas/           # Trabajos entregables
+│   ├── TIs/               # Trabajos de Investigación
+│   └── TPs/               # Trabajos Prácticos                                    
+└── 04_Producto/           # Artefactos que forman parte del producto   
 ```
 ---
 
@@ -38,20 +41,22 @@ Repositorio-Grupo5-4K2/
 
 **Archivos y carpetas:** Nombres descriptivos en minúscula y separados por guión bajo (_).
 
-| Ítem de configuración       | Regla de nombrado                                   |
-|-----------------------------|-----------------------------------------------------|
+| Ítem de configuración          | Regla de nombrado                              | Ejemplo                     |
+|--------------------------------|------------------------------------------------|-----------------------------|
 
 
-
+**Regla general:** no se incluyen números de versión en el nombre del archivo (ej. evitar `tp4_v1.pdf`); Git gestiona las versiones internamente mediante metadatos. Se modifica el contenido del archivo, pero se mantiene siempre el mismo nombre.
+ 
 ---
 
 ## Glosario
 
 | Sigla  | Significado                                   |
 |--------|-----------------------------------------------|
-
-
-
+|  TIs   | Trabajos de Investigación                     |
+|  TPs   | Trabajos Prácticos                            |
+|  SCM   | Gestión de Configuración de Software          |
+ 
 
 ## Herramienta a utilizar para SCM
 
