@@ -28,17 +28,42 @@
 
 ```
 Repositorio-Grupo2-4K2
-├── 01_Catedra/                         # Material provisto por los profesores (enunciados, guías)      
-├── 02_Gestion_Grupo/                   # Minutas de reunión, cronogramas y el Plan de SCM.
-│   └──  Cronograma                     # Planificación y seguimiento
-├── 03_Entregas/                        # Trabajos entregables
-│   ├── TIs/                            # Trabajos de Investigación
-│   └── TPs/                            # Trabajos Prácticos             
-│        └── tp_<N> 
-│              ├── consigna/
-│              └── entrega/                          
-└── 04_Producto/                        # Artefactos que forman parte del producto   
-```
+├── 01_Catedra/                 # Material provisto por los profesores (enunciados, guías)  
+│   ├── Bibliografia/ 
+│   │       ├── Material_de_referencia/
+│   │       │   ├── Agilismo/
+│   │       │   ├── Gestion_de_configuracion_de_software/
+│   │       │   ├── Ingenieria_de_software/
+│   │       │   ├── Lean_y_kanban/
+│   │       │   ├── Test_driven_development/
+│   │       │   └── Testing_de_software/
+│   │       ├── Material_recomendado_en_clase/
+│   │       ├── Presentaciones/
+│   │       └── Clases_grabadas/
+│   ├── Modalidad/
+│   ├── Templates_para_practicos_y_parciales/
+│   └── Parciales/
+├── 02_Gestion_grupo/ 
+│   ├── Comunicacion_docente/                    # Medio de comunicacion con los docentes y formato sugerido
+│   │   └──Mails
+│   ├── Minutas/                                 # Minutas de reunión, cronogramas y el Plan de SCM.
+│   └── Cronograma/                              # Planificación y seguimiento
+├── 03_Entregas/                                 # Trabajos entregables
+│   ├── TIs/                                     # Trabajos de Investigación
+│   │   └── Ti_<N>/                           
+│   │       ├── Consigna/
+│   │       └── Presentacion/                    
+│   └── TPs/                                     # Trabajos Prácticos             
+│       └── Tp_<N>/ 
+│           ├── Consigna/
+│           └── Entrega/                          
+├── 04_Producto/ # Artefactos que forman parte del producto ```
+│   ├── Documentacion/                   # ERS, Arquitectura, Manuales.
+│   └── Codigo_fuente/                   # Repositorio del código desarrollado en el TP 6.
+└── 05_Material_extra/
+    └── Clases/
+        └── Clase_<Fecha>_<Descripcion>/         
+                       
 ---
 
 ## Reglas de Nombrado
@@ -61,12 +86,15 @@ Repositorio-Grupo2-4K2
 |--------|-----------------------------------------------|
 |  TIs   | Trabajos de Investigación                     |
 |  TPs   | Trabajos Prácticos                            |
+|  tp    | Trabajo práctico                              |
 |  SCM   | Gestión de Configuración de Software          |
-|   N    | Número de ítem (1, 2, ..., n)                 |
-| REQ    | Requerimientos                                |
-| TST    | Testing                                       |
-| SCR    | Scrum                                         |
+|   b    | Bibliografía                                   |
+|   N    | Número de ítem (1, 2, ..., n)                  |
+| REQ    | Requerimientos                                 |
+| TST    | Testing                                        |
+| SCR    | Scrum                                          |
 | MVP    | Producto Mínimo Viable (Minimum Viable Product)|
+
  
 
 ## Herramienta a utilizar para SCM
