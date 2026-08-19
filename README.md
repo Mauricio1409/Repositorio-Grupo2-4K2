@@ -18,7 +18,7 @@
 | Nombre                        | Legajo |
 |-------------------------------|--------|
 | Quispe Ricra - Junior Junior  | 97139  |
-|                               |        |
+| Torti Mauricio Ivan           | 400619 |
 
 
 ---
@@ -26,7 +26,7 @@
 ## Estructura del repositorio
 
 ```
-Repositorio-Grupo-2--4K2
+Repositorio-Grupo2-4K2
 ├── 01_Catedra/                         # Material provisto por los profesores (enunciados, guías)      
 ├── 02_Gestion_Grupo/                   # Minutas de reunión, cronogramas y el Plan de SCM.
 │   └──  Cronograma                     # Planificación y seguimiento
@@ -44,13 +44,13 @@ Repositorio-Grupo-2--4K2
 
 **Archivos y carpetas:** Nombres descriptivos en minúscula y separados por guión bajo (_).
 
-| Ítem de configuración | Regla de nombrado                                       | Ejemplo                                          |
-|------------------------|------------------------------------------------------------|----------------------------------------------------|
-| User Stories           | `TP[N] - REQ - NombreEjercicio - UserStories.md`            | `TP4 - REQ - ParqueDiversiones - UserStories.md`    |
-| MVP                    | `TP[N] - REQ - NombreEjercicio - MVP.pdf`                    | `TP4 - REQ - ParqueDiversiones - MVP.pdf`           |
-| Estimaciones            | `TP[N] - REQ - NombreEjercicio - Estimaciones.xlsx`          | `TP4 - REQ - ParqueDiversiones - Estimaciones.xlsx` |
-| Casos de Prueba         | `TP[N] - TST - NombreEjercicio - CasosPrueba.md`             | `TP4 - TST - ParqueDiversiones - CasosPrueba.md`    |
-| Retrospectiva Sprint     | `TP[N] - SCR - Retrospective - Sprint[N].md`                 | `TP11 - SCR - Retrospective - Sprint3.md`           |
+| Ítem de configuración | Regla de nombrado                                       | Ejemplo                                            |
+|-----------------------|---------------------------------------------------------|----------------------------------------------------|
+| User Stories          | `TP[N] - REQ - NombreEjercicio - UserStories.md`        | `TP4 - REQ - ParqueDiversiones - UserStories.md`   |
+| MVP                   | `TP[N] - REQ - NombreEjercicio - MVP.pdf`               | `TP4 - REQ - ParqueDiversiones - MVP.pdf`          |
+| Estimaciones          | `TP[N] - REQ - NombreEjercicio - Estimaciones.xlsx`     | `TP4 - REQ - ParqueDiversiones - Estimaciones.xlsx`|
+| Casos de Prueba       | `TP[N] - TST - NombreEjercicio - CasosPrueba.md`        | `TP4 - TST - ParqueDiversiones - CasosPrueba.md`   |
+| Retrospectiva Sprint  | `TP[N] - SCR - Retrospective - Sprint[N].md`            | `TP11 - SCR - Retrospective - Sprint3.md`          |
 
 ---
 
