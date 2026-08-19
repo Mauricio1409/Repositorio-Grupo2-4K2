@@ -19,6 +19,7 @@
 |-------------------------------|--------|
 | Quispe Ricra - Junior Junior  | 97139  |
 | Torti Mauricio Ivan           | 400619 |
+| Piaggio - Uriel Agunstin      | 87599  |
 
 
 ---
