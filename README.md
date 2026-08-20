@@ -20,6 +20,7 @@
 | Quispe Ricra - Junior Jesus   | 97139  |
 | Torti Mauricio Ivan           | 400619 |
 | Piaggio - Uriel Agunstin      | 87599  |
+| D'Andrea Escoda - Thiago Augusto | 87381  |
 
 
 ---
