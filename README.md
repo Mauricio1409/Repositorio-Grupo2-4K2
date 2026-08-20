@@ -65,7 +65,7 @@ Repositorio-Grupo2-4K2
         └── Clase_<Fecha>_<Descripcion>/         
                        
 ---
-
+```
 ## Reglas de Nombrado
 
 **Archivos y carpetas:** Nombres descriptivos en minúscula y separados por guión bajo (_).
