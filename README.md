@@ -17,7 +17,7 @@
 
 | Nombre                        | Legajo |
 |-------------------------------|--------|
-| Quispe Ricra - Junior Junior  | 97139  |
+| Quispe Ricra - Junior Jesus   | 97139  |
 | Torti Mauricio Ivan           | 400619 |
 | Piaggio - Uriel Agunstin      | 87599  |
 
